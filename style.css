@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url("./carrish.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: -20% -30%;
+}
+
+.container {
+  /*background-color: aqua;*/
+  width: 80%;
+  margin: 0 auto;
+}
+.top-header .container {
+  background-color: burlywood;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+#main_nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+#main_nav li {
+  margin-right: 20px;
+}
+#main_nav li:last-child {
+  margin-right: 0px;
+}
+.second {
+  height: 400px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.third {
+  background-color: white;
+  padding: 100px 0;
+}
+.second h2 {
+  text-align: center;
+  color: white;
+  font-size: 50px;
+  font-weight: 900;
+  text-decoration: underline;
+}
